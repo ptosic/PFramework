@@ -1,7 +1,9 @@
 <?php 
 		ini_set("display_errors",1);
 		//error_reporting(E_ALL);
-
+        
+        
+#TEST
 define ('_PFRAME',1);
 define('PATH_BASE', dirname(__FILE__) );
 define( 'DS', DIRECTORY_SEPARATOR );
