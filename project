@@ -1,0 +1,50 @@
+<NotepadPlus>
+    <Project name="Framework">
+        <Folder name="cache" />
+        <Folder name="libraries">
+            <Folder name="application">
+                <Folder name="errorHandler">
+                    <Folder name="config">
+                        <File name="libraries\application\errorHandler\config\config.php" />
+                    </Folder>
+                    <File name="libraries\application\errorHandler\errorHandler.php" />
+                </Folder>
+                <File name="libraries\application\application.php" />
+                <File name="libraries\application\config.php" />
+            </Folder>
+            <Folder name="database">
+                <Folder name="engines">
+                    <File name="libraries\database\engines\mysql.php" />
+                    <File name="libraries\database\engines\mysqli.php" />
+                </Folder>
+                <File name="libraries\database\interface.php" />
+            </Folder>
+            <Folder name="event">
+                <File name="libraries\event\event.php" />
+                <File name="libraries\event\methods.php" />
+            </Folder>
+            <Folder name="html">
+                <File name="libraries\html\component.php" />
+                <File name="libraries\html\html.php" />
+                <File name="libraries\html\modules.php" />
+                <File name="libraries\html\plugin.php" />
+                <File name="libraries\html\renderer.php" />
+            </Folder>
+            <Folder name="session">
+                <File name="libraries\session\session.php" />
+            </Folder>
+            <Folder name="utilities">
+                <Folder name="crypt">
+                    <File name="libraries\utilities\crypt\crypt.php" />
+                    <File name="libraries\utilities\crypt\EnDecryptText.php" />
+                </Folder>
+                <File name="libraries\utilities\utilities.php" />
+            </Folder>
+            <File name="libraries\factory.php" />
+            <File name="libraries\loader.php" />
+            <File name="libraries\object.php" />
+        </Folder>
+        <File name=".htaccess" />
+        <File name="index.php" />
+    </Project>
+</NotepadPlus>
